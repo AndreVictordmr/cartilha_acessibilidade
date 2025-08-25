@@ -8,7 +8,173 @@
     <title>Cartilha de Acessibilidade</title>
 </head>
 <body>
+    <header id="cabecalho" class="desktop">
+
+        <div id="logo">
+            <h1>Info</h1>
+        </div>
+        
+        
+        <nav id="menu">
+            <ul>
+                    <li><a href="#Prefacio">Prefacio</a></li>
+                    <li><a href="#Objetivos">Objetivos</a></li>
+                    <li><a href="#Licenca">Uso</a></li>
+                    <li><a href="#Publico">Publico</a></li>
+                    <li><a href="#Estrutura">Outros fascículos</a></li>
+                    <li><a href="#Conceito">Conceito</a></li>
+                    <li><a href="#Fundamento">Fundamento</a></li>
+                    <li><a href="#Beneficiados">Beneficiados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header id="cabecalho" class="moblie">
+
+        <div id="logo"><h1>Info</h1><div>
+            
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="img/menu.svg" alt="Menu"></button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <nav id="menu" >
+                <ul>
+                    <li><a href="#Prefacio">Prefacio</a></li>
+                    <li><a href="#Objetivos">Objetivos</a></li>
+                    <li><a href="#Licenca">Uso</a></li>
+                    <li><a href="#Publico">Publico</a></li>
+                    <li><a href="#Estrutura">Outros fascículos</a></li>
+                    <li><a href="#Conceito">Conceito</a></li>
+                    <li><a href="#Fundamento">Fundamento</a></li>
+                    <li><a href="#Beneficiados">Beneficiados</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        
+    </header>
     
+    <main id="conteudo_principal">
+
+        <div id="foto">
+
+            <figure>
+                <img src="img/cartilha_acessibilidade.png" alt="Cartilha de Acessibilidade">
+            </figure>
+
+        </div>
+        <!-- ----------------------------------------------------------------------------------------------- -->
+        <h1> Acessibilidade na Web </h1>
+
+        <h2> Introdução ao Conteúdo </h2>
+        <p>Este primeiro fascículo serve como uma apresentação acessível e introdutória ao tema da acessibilidade na Web, ideal para diversos públicos, desde leigos até profissionais da área. Ele foi elaborado pelo grupo de trabalho (GT) de Acessibilidade na Web do W3C Brasil com o objetivo de desmistificar o tema, trazer definições, explicar sua importância e orientar quanto aos próximos passos.</p>
+
+        <section id="Prefacio">
+            <h2>1.Prefácio e Origem da Cartilha</h2>
+            <p> Fala sobre o W3C Brasil, sua missão e atuação desde 2008, com destaque para a promoção da Acessibilidade Digital (como o prêmio “Todos na Web” e ações no Dia Internacional da Pessoa com Deficiência).</p>
+            <p> Mostra como o GT de Acessibilidade na Web foi criado em 2012 com ampla participação de governo e sociedade, e deu origem à cartilha. </p>
+        </section>
+        
+        <section id="Objetivos">
+            <h2>2. Objetivos da Cartilha</h2>
+            <p> O fascículo serve para: </p>
+
+            <ul>
+                <li>Contextualizar a acessibilidade na web de forma clara e acessível. </li>
+                <li>Apresentar barreiras de acesso enfrentadas por diferentes usuários. </li>
+                <li>Oferecer recomendações e diretrizes (com fontes) para desenvolvedores. </li>
+                <li>Orientar sobre avaliação de acessibilidade.</li>
+                <li>Indicar como cidadãos e representantes podem cobrar acessibilidade.</li>
+            </ul>
+        </section>
+
+        <section id="Licenca">
+            <h2>3.Licença de Uso</h2>
+            <p>Publicada sob Creative Commons Atribuição – Uso Não Comercial 3.0 Brasil (CC BY‑NC 3.0 BR).</p>
+            <p>Permite compartilhamento e reprodução desde que haja atribuição e seja para uso não comercial.</p>
+        </section>
+
+        <section id="Publico">
+            <h2>4.Público-Alvo</h2>
+            <p>Voltado para:</p>
+            <ul>
+                <li>Cidadãos interessados no tema e em cobrar seus direitos.</li>
+                <li>Procuradores, promotores, auditores.</li>
+                <li>Gestores, administradores e gerentes de projeto.</li>
+                <li>Desenvolvedores, designers, arquitetos de informação, testadores e produtores de conteúdo.</li>
+            </ul>
+        </section>
+
+        <section id="Estrutura">
+            <h2>5.Estrutura em Fascículos</h2>
+            <p>Esse primeiro fascículo é parte de uma série:</p>
+            <ul>
+                <li>Introdução</li>
+                <li>Legislação e benefícios</li>
+                <li>Público-alvo da acessibilidade</li>
+                <li>Tornando o conteúdo acessível</li>
+                <li>Mantendo o conteúdo acessível</li>
+                <li>Mensuração e validação</li>
+                <li>Referências</li>
+            </ul>
+        </section>
+
+        <section id="Conceito">
+            <h2>6.Conceito de Acessibilidade</h2>
+            <p>Com base no Decreto 5.296/2004, traz uma definição ampliada: acessibilidade é a “possibilidade e condição de alcance, percepção e entendimento… com segurança e autonomia…” em diversos contextos, incluindo web.</p>
+            <p>Acessibilidade na Web inclui a capacidade de perceber, entender, navegar, interagir e contribuir — não apenas consumir passivamente. Beneficia também pessoas idosas ou em diferentes contextos.</p>
+        </section>
+
+        <section id="Fundamento">
+            <h2>7.Fundamento no Desenho Universal</h2>
+            <p>Apresenta os princípios do Desenho Universal — projetar ambientes utilizáveis por todas as pessoas, sem adaptações especiais, incluindo rampas, audiodescrição, legendas, Braille etc.</p>
+            <p>Detalha os 7 princípios: equidade, flexibilidade, simplicidade, informação perceptível, tolerância ao erro, mínimo esforço físico e dimensões adequadas.</p>
+            <p>Destaca que sites devem seguir padrões web para compatibilidade com tecnologias assistivas e diversos dispositivos.</p>
+        </section>
+
+        <section id="Beneficiados">
+            <h2>8.Importância, Reciprocidade e Diversidade de Beneficiados</h2>
+            <p>Mostra que a web permeia nossa vida em educação, trabalho, saúde, cultura, etc. e, portanto, acessibilidade é fundamental para participação plena.</p>
+            <p>Defende que acessibilidade é uma via de mão dupla: quanto mais acessível a web, mais pessoas (com deficiência ou não) podem contribuir com ela.</p>
+            <p>Enfatiza a diversidade de situações: pessoas com deficiência sensorial, cognitiva, motora; idosos; quem usa dispositivos móveis; quem tem conexão lenta; quem não domina a língua, entre outros.</p>
+        </section>
+
+        <button><a href="http://www.acessibilidade.w3c.br/cartilha/fasciculo1/">Texto original</a></button>
+    </main>
+    <!-- ------------------------------------------------------------------------------------------------------------- -->
+    <h2>Artigos</h2>
+    <table>
+        <tr>
+            <th>N°</th>
+            <th>Nome e <i>Hiperlinks</i></th>
+            <th>Perfils</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td><b>Introdução à acessibilidade na Web</b> (W3C – tradução Maujor.com) <a href="http://www.maujor.com/w3c/introwac.html"></a></td>
+            <td>ABCD</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td><b>Acessibilidade Web:</b>  tudo tem sua primeira vez – Parte I <a href="http://acessibilidadelegal.com/13-tudotem.php"></a></td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td><b>Acessibilidade Web:</b> tudo tem sua primeira vez – Parte II <a href="http://acessibilidadelegal.com/13-tudotem2.php"></a></td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td><b>Video:</b> acessibilidade Web: custo ou benefício? <a href="http://www.videolog.tv/video.php?id=230205"></td>a> </td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td><b>Guia de referência em acessibilidade Web – UNIRIO</b> <a href="http://www.acessibilidadelegal.com/13-guia.php"></a> </td>
+        </tr>
+    </table>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
