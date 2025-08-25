@@ -11,6 +11,7 @@
     background-color:var(--color_principal) ;
     display: grid;
     gap: 10px;
+    padding: 10px;
     grid-template-columns: 1fr 4fr;
     place-items: center center;
 
@@ -19,6 +20,7 @@
     background-color:var(--color_principal) ;
     display: none;
     gap: 10px;
+    padding: 10px;
     grid-template-columns: 0.5fr 4fr;
     place-items: center center;
     position: sticky;
@@ -29,7 +31,8 @@
 #menu {
     display: grid;
     grid-template-columns: 1fr;
-    place-items: center end;
+    place-items: center center;
+    padding: 10px;
 }
 #menu ul{
     list-style: none;
@@ -37,6 +40,11 @@
 
     flex-wrap: wrap;
 
+    gap: 10px;
+
+}
+#menu ul li a{
+    text-decoration: none;
 }
 
 #conteudo_principal{
@@ -57,5 +65,8 @@
     }
     #cabecalho.moblie{
         display: grid;
+    }
+    #menu ul{
+        flex-direction: column;
     } 
 }
