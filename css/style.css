@@ -25,10 +25,7 @@
     top: 0;
 }
 
-#logo h1{
 
-    
-}
 #menu {
     display: grid;
     grid-template-columns: 1fr;
