@@ -115,4 +115,8 @@ table{
     #menu ul{
         flex-direction: column;
     } 
+    .tabela{
+        width: 100%;
+    }
+
 }
