@@ -65,12 +65,16 @@ section h2{
 }
 #tabela{
     padding: 10px;
+    justify-self: center;
 }
 #tabela table tr td{
     border: 1px solid ;
-    height: 50px;
+    padding: 10px;
+    height: 60px;
 }
-
+#btn{
+    padding: 10px;
+}
 
 @media(max-width: 600px){
    #cabecalho.desktop{
