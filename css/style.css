@@ -56,6 +56,20 @@
 
 }
 
+section{
+    width: 100%;
+}
+
+section h2{
+    text-align: center;
+}
+#tabela{
+    padding: 10px;
+}
+#tabela table tr td{
+    border: 1px solid ;
+    height: 50px;
+}
 
 
 @media(max-width: 600px){
