@@ -8,7 +8,7 @@
 
 }
 #cabecalho.desktop{
-    background-color:var(--color_principal) ;
+    background-color:var(--color_principal);
     display: grid;
     gap: 10px;
     padding: 10px;
@@ -57,6 +57,9 @@
     place-items: center center;
 
 }
+#conteudo_principal h1,#conteudo_principal h2,.tabela h2{
+    color: var(--color_principal);
+}
 
 section{
     width: 100%;
@@ -64,20 +67,27 @@ section{
 
 section h2{
     text-align: center;
+    color:  var(--color_principal);
 }
 .tabela{
     padding: 10px;
     justify-self: center;
+
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
 }
-.tabela table caption{
-    order: 1;
+table{
+    display: table;
+    text-indent: initial;
+    unicode-bidi: isolate;
 }
+
 .tabela table tr td{
+    
     border: 1px solid ;
     padding: 10px;
-    height: 60px;
+    
     order: 2;
 }
 
